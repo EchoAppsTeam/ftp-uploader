@@ -6,6 +6,21 @@
     "name": "Echo",
     "url": "http://aboutecho.com"
   },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/EchoAppsTeam/ftp-uploader.git"
+  },
+  "bugs": {
+    "url": "https://github.com/EchoAppsTeam/ftp-uploader/issues"
+  },
+  "licenses": [
+    {
+      "type": "Apache-2.0"
+    }
+  ],
+  "engines": {
+    "node": ">=0.8"
+  },
   "main": "ftp-uploader.js",
   "dependencies": {
     "ftp": "~0.1.7"
@@ -13,6 +28,5 @@
   "keywords": [
     "ftp",
     "upload"
-  ],
-  "private": true
+  ]
 }
